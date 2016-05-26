@@ -2,6 +2,9 @@ language: python
 python:
 - '3.5'
 install:
-    - pip install -r requirements/development.txt
+- pip install -r requirements/development.txt
 script:
-    - pep8 .
+- pep8 .
+notifications:
+  slack:
+    secure: Fa0l+OxLWrefjf9IztpVtJJKSAf5K0RPdXqs/TjbC7n/5qha4qNMvwrfIiFXC/v3x5EJl3R/S0N/JjxFtIP10RtufQVS0zu2KlJFpanHBu5aTblIA4s9p6S8q6tAd05d0E4iOwVQMkze1IaMTd3QNm+LNkCZhmbo+MWXHbm7VlquojOZvIen8n2i5GiNPw9/RW599ePnJ1zgnROmqo+hPrGMdfLJn9hS9OEE959eca7rVSygBjOrUbGvzmuMb3osPYiZFywb8k6NHQ5m+DU8k51fJg+I6JJeeVN9W5lWfNxE8dEtNqWzdLwF5ayFS7xpFTxQk3F8b3q92VqYkr2N03imfHqou4IMkn+OHSCje+HqD6gpdn845CNZXageZ7zu77jBzJn5uMQBRlXdd6NeruI0wTtJmG5IcsFyQFvIjtdN2DeEiqEslR7Npo0202vdEyDJjZvtVovj9AR8mD9FymjO9SBuJKC6PJ/txLmMgwA21nJvqLeTF3QsSi6ScfkUuBYWvkkyyJdurZLjWAol8ihXb+66nf71d79HcoHaLyFTLIvpj5sfoAjHA0rgWk+kC6s/jf9g+8ceWLaUPKpN6/EY5S2yQoUoxnV+r/+0d63t0UhBOKmA3EqTmpD/ZX9KzeRPEUqxbQmHxa9p9FlfqZCWWgFOTi3ZaHSZ++v0V9o=
